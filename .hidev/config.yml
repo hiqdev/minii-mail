@@ -1,0 +1,18 @@
+github:
+    name:           hiqdev/minii-mail
+
+package:
+    type:           library
+    name:           mail
+    namespace:      yii\mail
+    src:            src
+    title:          minii mail
+    keywords:       minii, mail
+    description:    |
+        [minii](https://github.com/hiqdev/minii-core) is mini version of [Yii2](http://yiiframework.com/), supposed to be fully compatible.
+
+        This package provides yii\mail.
+
+require:
+    hiqdev/hidev-php:   "*"
+    minii/hidev-vendor: "*"

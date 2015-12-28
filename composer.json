@@ -1,0 +1,33 @@
+{
+    "name": "minii/mail",
+    "type": "library",
+    "description": "minii mail",
+    "keywords": [
+        "minii",
+        "mail"
+    ],
+    "homepage": "https://github.com/hiqdev/minii-mail",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "support@hiqdev.com",
+        "source": "https://github.com/hiqdev/minii-mail",
+        "issues": "https://github.com/hiqdev/minii-mail/issues",
+        "wiki": "https://github.com/hiqdev/minii-mail/wiki",
+        "forum": "http://forum.hiqdev.com/"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "email": "sol@hiqdev.com",
+            "homepage": "http://hipanel.com/"
+        }
+    ],
+    "require": {
+        "minii/core": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\mail\\": "src"
+        }
+    }
+}
