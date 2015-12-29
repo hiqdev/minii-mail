@@ -25,6 +25,12 @@
     "require": {
         "minii/core": "*"
     },
+    "require-dev": {
+        "minii/core": "*@dev",
+        "minii/web": "*@dev",
+        "minii/console": "*@dev",
+        "minii/helpers": "*@dev"
+    },
     "autoload": {
         "psr-4": {
             "yii\\mail\\": "src"
